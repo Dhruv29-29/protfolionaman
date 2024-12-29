@@ -146,7 +146,7 @@ body {
 
 .container iframe {
     width: 100%;
-    height: 300px;
+    height: 400px;
 }
 
 .work-2 {
@@ -207,6 +207,8 @@ body {
         bottom: auto;
         left: auto;
         right: auto;
+        background-color: black;
+        opacity: 0;
     }
     .more-1,
     .more-2,
@@ -228,6 +230,9 @@ body {
     }
     .navbar {
         justify-content: center;
+    }
+    .container {
+        margin: 0px;
     }
     .contect {
         width: 90px;
@@ -254,7 +259,6 @@ body {
         position: relative;
         top: -147px;
         font-size: 11px;
-        right: -16px;
     }
     .xpbox {
         position: relative;
@@ -277,8 +281,71 @@ body {
     }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 380px) {
     #welcome {
-        right: 20px;
+        position: relative;
+        right: 91px;
+    }
+    .background,
+    .box {
+        height: 300px;
+    }
+    .pro img {
+        width: 168px;
+        margin-left: 35px;
+        position: relative;
+        top: 48px;
+        left: -5px;
+    }
+    .navbar {
+        justify-content: center;
+    }
+    .container {
+        margin: 0px;
+    }
+    .contect {
+        width: 90px;
+        height: 25px;
+        margin-top: 10px;
+    }
+    .more-1,
+    .more-2,
+    .more-3 {
+        font-size: 25px;
+    }
+    .f500,
+    .f4 {
+        font-size: 12px;
+        padding-left: 31px;
+    }
+    .welcome-2 {
+        font-size: 20px;
+    }
+    .work-2 {
+        font-size: 30px;
+    }
+    .more-info {
+        position: relative;
+        top: -149px;
+        font-size: 11px;
+    }
+    .xpbox {
+        position: relative;
+        top: 18px;
+        width: 81px;
+        height: 27px;
+        left: 25px;
+    }
+    .xpbox,
+    .project p {
+        font-size: 10px;
+        padding-left: 20px;
+    }
+    .project {
+        position: relative;
+        top: -40px;
+        left: 147px;
+        width: 81px;
+        height: 27px;
     }
 }
